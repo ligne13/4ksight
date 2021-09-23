@@ -1,12 +1,13 @@
 {
   "manifest_version": 2,
   "name": "4ksight",
-  "version": "0.1",
+  "version": "1.0",
+  "description": "Display review score on reviews page.",
   "content_scripts": [
     {
       "matches": [
-        "https://pitchfork.com/artists/*",
-        "http://pitchfork.com/artists/*"
+        "https://pitchfork.com/reviews/*",
+        "https://pitchfork.com/best/*"
       ],
       "js": ["content.js"],
       "css": ["style.css"]

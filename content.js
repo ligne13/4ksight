@@ -1,9 +1,9 @@
-var REVIEW_SELECTOR = "#result-albumreviews ul li.result-item";
-var ALBUM_LINK_SELECTOR = "a.album-link";
-var ARTWORK_DIV_SELECTOR = ".artwork";
+var REVIEW_SELECTOR = ".reviews-page .review-collection-fragment .review";
+var ALBUM_LINK_SELECTOR = "a.review__link";
+var ARTWORK_DIV_SELECTOR = ".review__artwork";
 var SCORE_CIRCLE_SELECTOR = ".score-circle";
 
-
+console.log('4KSIGHT');
 document.querySelectorAll(REVIEW_SELECTOR).forEach((elem, i) => {
   var artDiv = elem.querySelector(ARTWORK_DIV_SELECTOR);
   var reviewLink = elem.querySelector(ALBUM_LINK_SELECTOR).href;

@@ -1,27 +1,21 @@
-.artwork:hover .injected {
-  color: #FF3530;
-  border-radius: 50%;
-  border: 0.1em solid #FF3530;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  font-size: 6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.artwork .injected {
+    color: #1a1a1a;
+    border-radius: 50%;
+    border: .5rem solid #1a1a1a;
+    background: #fff;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -30px;
+    right: -30px;
+    z-index: 10;
+    font-size: 2.6rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .artwork {
-  position: relative;
-}
-
-.artwork:hover img {
-  opacity: 0.5;
-}
-
-.injected {
-  display: none;
+    position: relative;
 }
